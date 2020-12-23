@@ -16,6 +16,10 @@ app.get('/scala',(req,res)=>{
     res.render('scala');
 });
 
+app.get('/deeplearning',(req,res) =>{
+  res.render('materials/deeplearning');
+});
+
 app.listen(3000,function(){
     console.log("running at port 3000");
 });
