@@ -20,6 +20,10 @@ app.get('/deeplearning',(req,res) =>{
   res.render('materials/deeplearning');
 });
 
+app.get('/angular',(req,res) =>{
+  res.render('materials/angular');
+});
+
 app.listen(3000,function(){
     console.log("running at port 3000");
 });
